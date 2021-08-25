@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dok_style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>dockpass</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header_top">
+
+                <a href="#none">로그인</a>
+                <a href="#none">회원가입</a>
+                <a href="#none">아이디/비밀번호찾기</a>
+            </div>
+            <div class="header_nav">
+                <div class="logo">
+                    <a href="#none" id="logo"></a>
+                    <img src="img/logo_mobile.png" alt="logo">
+                </div>
+                <div class="gnb">
+                    <a href="#none">교육안내</a>
+                    <a href="#none">나의 강의실</a>
+                    <a href="#none">고객센터</a>
+                    <a href="#none">온라인서점</a>
+                </div>
+            </div>
+        </div>
+        <div class="main_1">
+            <!-- Swiper -->
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/visual_01.jpg" alt="Slide 1"></div>
+                    <div class="swiper-slide"><img src="img/visual_02.jpg" alt="Slide 2"></div>
+                    <div class="swiper-slide"><img src="img/visual_03.jpg" alt="Slide 3"></div>
+                    <div class="swiper-slide"><img src="img/visual_04.jpg" alt="Slide 4"></div>
+                    <div class="swiper-slide"><img src="img/visual_05.jpg" alt="Slide 5"></div>
+                    <div class="swiper-slide"><img src="img/visual_06.jpg" alt="Slide 6"></div>
+                    <div class="swiper-slide"><img src="img/visual_07.jpg" alt="Slide 7"></div>
+                    <div class="swiper-slide"><img src="img/visual_08.jpg" alt="Slide 8"></div>
+                    <div class="swiper-slide"><img src="img/visual_09.jpg" alt="Slide 9"></div>
+                    <div class="swiper-slide"><img src="img/visual_10.jpg" alt="Slide 1">0</div>
+                    <div class="swiper-slide"><img src="img/visual_11.jpg" alt="Slide 1">1</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- <div class="swiper-container mySwiper mobile">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/01_visual.jpg"> Slide 1</div>
+                    <div class="swiper-slide"><img src="img/02_visual.jpg"> Slide 2</div>
+                    <div class="swiper-slide"><img src="img/03_visual.jpg"> Slide 3</div>
+                    <div class="swiper-slide"><img src="img/04_visual.jpg"> Slide 4</div>
+                    <div class="swiper-slide"><img src="img/05_visual.jpg"> Slide 5</div>
+                    <div class="swiper-slide"><img src="img/06_visual.jpg"> Slide 6</div>
+                    <div class="swiper-slide"><img src="img/07_visual.jpg"> Slide 7</div>
+                    <div class="swiper-slide"><img src="img/08_visual.jpg"> Slide 8</div>
+                    <div class="swiper-slide"><img src="img/09_visual.jpg"> Slide 9</div>
+                    <div class="swiper-slide"><img src="img/10_visual.jpg"> Slide 10</div>
+                    <div class="swiper-slide"><img src="img/11_visual.jpg"> Slide 11</div>
+                    
+                </div> -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+            <div class="block_img"></div>
+        </div>
+        <div class="main_2"></div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
